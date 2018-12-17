@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -11,10 +11,10 @@ import (
 	"math/rand"
 	"sync"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/errors"
+	"github.com/cenxui/goleveldb/leveldb/iterator"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 // Common errors.

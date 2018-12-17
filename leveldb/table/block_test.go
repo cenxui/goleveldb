@@ -1,4 +1,4 @@
-// Copyright (c) 2014, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2014, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -13,10 +13,10 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/testutil"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/iterator"
+	"github.com/cenxui/goleveldb/leveldb/testutil"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 type blockTesting struct {

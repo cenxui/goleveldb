@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -10,9 +10,9 @@ package opt
 import (
 	"math"
 
-	"github.com/syndtr/goleveldb/leveldb/cache"
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/filter"
+	"github.com/cenxui/goleveldb/leveldb/cache"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/filter"
 )
 
 const (

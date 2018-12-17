@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -14,10 +14,10 @@ import (
 
 	"github.com/golang/snappy"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
-	"github.com/syndtr/goleveldb/leveldb/filter"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/filter"
+	"github.com/cenxui/goleveldb/leveldb/opt"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 func sharedPrefixLen(a, b []byte) int {

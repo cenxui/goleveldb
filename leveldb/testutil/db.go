@@ -1,4 +1,4 @@
-// Copyright (c) 2014, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2014, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -12,9 +12,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"github.com/syndtr/goleveldb/leveldb/errors"
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/errors"
+	"github.com/cenxui/goleveldb/leveldb/iterator"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 type DB interface{}

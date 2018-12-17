@@ -1,4 +1,4 @@
-// Copyright (c) 2014, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2014, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/syndtr/goleveldb/leveldb/storage"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/storage"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 // Common errors.

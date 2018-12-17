@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -9,9 +9,9 @@ package leveldb
 import (
 	"sync/atomic"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
+	"github.com/cenxui/goleveldb/leveldb/iterator"
+	"github.com/cenxui/goleveldb/leveldb/memdb"
+	"github.com/cenxui/goleveldb/leveldb/opt"
 )
 
 func (s *session) pickMemdbLevel(umin, umax []byte, maxLevel int) int {
@@ -36,7 +36,7 @@ func (s *session) flushMemdb(rec *sessionRecord, mdb *memdb.DB, maxLevel int) (i
 	// key-space is strictly incrementing it will not overlaps with
 	// higher level, thus maximum possible level is always picked, while
 	// overlapping deletion marker pushed into lower level.
-	// See: https://github.com/syndtr/goleveldb/issues/127.
+	// See: https://github.com/cenxui/goleveldb/issues/127.
 	flushLevel := s.pickMemdbLevel(t.imin.ukey(), t.imax.ukey(), maxLevel)
 	rec.addTableFile(flushLevel, t)
 

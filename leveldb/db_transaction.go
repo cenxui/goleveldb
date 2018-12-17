@@ -1,4 +1,4 @@
-// Copyright (c) 2016, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2016, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/iterator"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/iterator"
+	"github.com/cenxui/goleveldb/leveldb/opt"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 var errTransactionDone = errors.New("leveldb: transaction already closed")

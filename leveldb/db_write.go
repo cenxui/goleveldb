@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -10,9 +10,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/syndtr/goleveldb/leveldb/memdb"
-	"github.com/syndtr/goleveldb/leveldb/opt"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/cenxui/goleveldb/leveldb/memdb"
+	"github.com/cenxui/goleveldb/leveldb/opt"
+	"github.com/cenxui/goleveldb/leveldb/util"
 )
 
 func (db *DB) writeJournal(batches []*Batch, seq uint64, sync bool) error {

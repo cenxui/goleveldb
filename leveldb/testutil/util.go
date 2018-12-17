@@ -1,4 +1,4 @@
-// Copyright (c) 2014, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2014, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -15,7 +15,7 @@ import (
 
 	"github.com/onsi/ginkgo/config"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
 )
 
 var (

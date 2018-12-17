@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -15,7 +15,7 @@ import (
 Table:
 
 Table is consist of one or more data blocks, an optional filter block
-a metaindex block, an index block and a table footer. Metaindex block
+a meta index block, an index block and a table footer. Meta index block
 is a special block used to keep parameters of the table, such as filter
 block name and its block handle. Index block is a special block used to
 keep record of data blocks offset and length, index block use one as

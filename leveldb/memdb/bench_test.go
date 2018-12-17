@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <syndtr@gmail.com>
+// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -11,7 +11,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/syndtr/goleveldb/leveldb/comparer"
+	"github.com/cenxui/goleveldb/leveldb/comparer"
 )
 
 func BenchmarkPut(b *testing.B) {
