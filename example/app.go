@@ -17,7 +17,7 @@ func main()  {
 
 	err = db.Put([]byte("john"), []byte("12"), nil)
 
-	err = db.Put([]byte("Mia"), []byte("123拗好ㄏㄠ"), nil)
+	err = db.Put([]byte("Mia"), []byte("123"), nil)
 
 	err = db.Put([]byte("Lisa"), []byte("42"), nil)
 

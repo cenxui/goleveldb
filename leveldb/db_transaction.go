@@ -1,4 +1,4 @@
-// Copyright (c) 2016, Suryandaru Triandana <cenxui@gmail.com>
+// Copyright (c) 2016,Cenxui <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be

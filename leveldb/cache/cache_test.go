@@ -1,4 +1,4 @@
-// Copyright (c) 2012, Suryandaru Triandana <cenxui@gmail.com>
+// Copyright (c) 2012,Cenxui <cenxui@gmail.com>
 // All rights reserved.
 //
 // Use of this source code is governed by a BSD-style license that can be
@@ -560,4 +560,8 @@ func TestLRUCache_Close(t *testing.T) {
 	if delFuncCalled != 1 {
 		t.Errorf("delFunc isn't called 1 times: got=%d", delFuncCalled)
 	}
+}
+
+func TestCache_Capacity(t *testing.T) {
+	c := NewCache(NewLRU(2))
 }
